@@ -1,0 +1,3 @@
+classify_cifar10_base是用简单的卷积神经网络对CIFAR10图像数据集的10个类别进行分类；
+classify_cifar10_improve1和classify_cifar10_improve2对base方法进行了改进，使用批归一化、小尺寸卷积核；
+classify_cifar10_tremendously更进一步改进，加深风络，使用批归一化、dropout技巧，避免过拟合，精度达到84%
